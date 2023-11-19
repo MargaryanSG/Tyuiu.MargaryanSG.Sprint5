@@ -12,6 +12,7 @@ namespace Tyuiu.MargaryanSG.Sprint5.Task0.V5.Test
         public void CheckFile()
         {
             string path = @"C:\Users/POWER PC TYUMEN\source\repos\Tyuiu.MargaryanSG.Sprint5\Tyuiu.MargaryanSG.Sprint5.Task0.V5\bin\Debug\OutPutFileTask0.txt";
+
             FileInfo fileInfo = new FileInfo(path);
             bool fileExists = fileInfo.Exists;
             bool wait = true;

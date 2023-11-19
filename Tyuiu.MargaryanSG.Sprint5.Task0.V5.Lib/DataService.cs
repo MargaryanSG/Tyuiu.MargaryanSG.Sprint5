@@ -17,6 +17,7 @@ namespace Tyuiu.MargaryanSG.Sprint5.Task0.V5.Lib
             double z = Math.Log((x + 1)/(x + 2));
             z = Math.Round(z, 3);
             File.WriteAllText(path, Convert.ToString(z));
+
             return path;
         }
     }
