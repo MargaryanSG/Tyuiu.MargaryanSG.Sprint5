@@ -3,7 +3,7 @@ using System;
 using System.IO;
 using Tyuiu.MargaryanSG.Sprint5.Task6.V7.Lib;
 
-namespace Tyuiu.GalyameevMR.Sprint5.Task6.V29.Test
+namespace Tyuiu.MargaryanSG.Sprint5.Task6.V7.Test
 {
     [TestClass]
     public class DataServiceTest
